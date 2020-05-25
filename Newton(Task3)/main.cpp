@@ -121,6 +121,10 @@ int main() {
                     
 //экспериментальным путем нашли оптимальное k: 3
                 
+                
+//                x^0_5 = -0.2
+//                if k < 7 we have nans
+//                if k >= 7 we get what we want
                 int k;
                 
                 if (x5_flag == true) {
@@ -161,11 +165,7 @@ int main() {
                 
 //экспериментальным путем нашли оптимальное k: 5
                 
-                if (x5_flag == true) {
-                    k1 = 1;
-                } else {
-                    k1 = 8;
-                }
+                k1 = 5;
             
                 x = Newton(x0, N, numit3, k1, false, true, false);
                 

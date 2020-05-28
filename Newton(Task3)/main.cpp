@@ -167,7 +167,7 @@ int main() {
                 
 //экспериментальным путем нашли оптимальное k: 5
                 
-                k1 = 2;
+                k1 = 5;
             
                 x = Newton(x0, N, numit3, k1, false, true, false);
                 

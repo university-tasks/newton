@@ -40,6 +40,8 @@ int main() {
             x0[4] = -0.2;
             x5_flag = true;
             break;
+        case 2:
+            break;
         default:
             return 0;;
     }
@@ -88,7 +90,7 @@ int main() {
                 printf("x: ");
                 showDVect(x, N);
                 
-                return 0;
+//                return 0;
             case 2:
                 
                 
@@ -105,7 +107,7 @@ int main() {
                 
                 printf("x: ");
                 showDVect(x, N);
-                return 0;
+//                return 0;
                 
             case 3:
 
@@ -146,7 +148,7 @@ int main() {
                     printf("x: ");
                     showDVect(x, N);
                 
-                return 0;
+//                return 0;
                 
             case 4:
                 int k1;
@@ -165,7 +167,7 @@ int main() {
                 
 //экспериментальным путем нашли оптимальное k: 5
                 
-                k1 = 5;
+                k1 = 2;
             
                 x = Newton(x0, N, numit3, k1, false, true, false);
                 
@@ -178,7 +180,7 @@ int main() {
                 showDVect(x, N);
                 
                 
-                return 0;
+//                return 0;
                 
             default:
                 return 0;

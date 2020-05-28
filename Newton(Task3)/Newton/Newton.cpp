@@ -8,9 +8,9 @@
 # define eps 0.000001
 
 #include "Newton.hpp"
-#include "LUP.hpp"
-#include "count.hpp"
-#include "operations.hpp"
+#include "../LUP/LUP.hpp"
+#include "../count/count.hpp"
+#include "../Operations/operations.hpp"
 
 #include <cmath>
 
@@ -74,6 +74,10 @@ double *Newton(double  *x0, int N, int *numit, int k, bool turnToModifiedFlag, b
         prev_x[i] = x0[i];
     }
     int i = 0;
+    
+    countJ(J, prev_x);
+    LUPDecompose(J, p, N, numit);
+    i = 0;
     
     do {
         i++;

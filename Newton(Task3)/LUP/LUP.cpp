@@ -7,7 +7,7 @@
 //
 
 #include "LUP.hpp"
-#include "operations.hpp"
+#include "../Operations/operations.hpp"
 
 #define myExp 0.00000001
 

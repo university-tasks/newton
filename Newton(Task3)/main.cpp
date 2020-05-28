@@ -90,7 +90,7 @@ int main() {
                 printf("x: ");
                 showDVect(x, N);
                 
-//                return 0;
+                return 0;
             case 2:
                 
                 
@@ -107,7 +107,7 @@ int main() {
                 
                 printf("x: ");
                 showDVect(x, N);
-//                return 0;
+                return 0;
                 
             case 3:
 
@@ -148,7 +148,7 @@ int main() {
                     printf("x: ");
                     showDVect(x, N);
                 
-//                return 0;
+                return 0;
                 
             case 4:
                 int k1;
@@ -180,7 +180,7 @@ int main() {
                 showDVect(x, N);
                 
                 
-//                return 0;
+                return 0;
                 
             default:
                 return 0;
